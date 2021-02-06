@@ -10,6 +10,6 @@ func main(){
 	fmt.Scanf("%s %d", &name, &age)
 
         fmt.Printf("Your name %s & age is %d", name, age)
-
+	fmt.Println(" Thank you for your input ")
 	
 }
