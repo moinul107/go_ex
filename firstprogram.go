@@ -2,14 +2,16 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	fmt.Println("Please enter your name & age: ")
 	var name string
 	var age int
 
 	fmt.Scanf("%s %d", &name, &age)
 
-        fmt.Printf("Your name %s & age is %d", name, age)
+	fmt.Printf("Your name %s & age is %d", name, age)
+	fmt.Println("")
+	fmt.Println("")
 	fmt.Println(" Thank you for your input ")
-	
+
 }
