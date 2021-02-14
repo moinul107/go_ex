@@ -36,7 +36,7 @@ fruits= append(fruits, "Mango", "Apple")
 
 fmt.Println(fruits)
 fmt.Printf("%T\n", fruits)
-fmt.Printf("%T\n", students)
+fmt.Printf(%T\n, students)
 
 a := reflect.TypeOf(students).Kind().String()
 fmt.Println(a)
