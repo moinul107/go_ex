@@ -16,6 +16,7 @@ return d.Name
 
 func (d Doctor)getSalaryInfo() float32{
 return d.Salary
+
 }
 
 
